@@ -24,7 +24,7 @@ body{
     border-radius: 5px;
     padding: 10px 20px;
     text-decoration: none;
-    background-image: linear-gradient(45deg, rgb(219, 26, 116), rgb(240, 45, 71) );
+    background-image: linear-gradient(45deg, rgb(236, 27, 125), rgb(243, 20, 50) );
 }
 
 .half-width img{
@@ -84,6 +84,7 @@ body{
 .latest img{
     width: 100%;
     border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
 }
 
 #bottom-part h2{
@@ -122,6 +123,7 @@ body{
     padding: 40px 20px;
     border-radius: 10px;
     color: white;
+    box-shadow: 10px 10px 40px gray;
 }
 
 #bottom-part{
