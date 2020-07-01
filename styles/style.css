@@ -27,6 +27,10 @@ body{
     background-image: linear-gradient(45deg, rgb(236, 27, 125), rgb(243, 20, 50) );
 }
 
+.link-button:hover{
+    background-image: linear-gradient(45deg, rgb(0, 119, 255), rgb(111, 0, 255) );
+}
+
 .half-width img{
     padding-left: 3%;
     width: 70%;
@@ -84,7 +88,11 @@ body{
 .latest img{
     width: 100%;
     border-radius: 5px;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 2px 2px 40px gray;
+}
+
+.latest img:hover{
+    box-shadow: 8px 8px 40px rgb(85, 84, 84);
 }
 
 #bottom-part h2{
@@ -122,8 +130,11 @@ body{
     background-image: linear-gradient(45deg, rgb(245, 22, 152),rgb(255, 22, 92));
     padding: 40px 20px;
     border-radius: 10px;
-    color: white;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 3px 3px 40px rgb(99, 96, 96);
+}
+
+.contact:hover{
+    box-shadow: 9px 9px 40px rgb(75, 72, 72);
 }
 
 #bottom-part{
@@ -138,6 +149,11 @@ body{
 
 .contact p{
     font-size: larger;
+    color: white;
+}
+
+.contact a{
+    color: white;
 }
 
 footer{
