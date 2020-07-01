@@ -93,6 +93,7 @@ body{
 
 .latest img:hover{
     box-shadow: 8px 8px 40px rgb(85, 84, 84);
+    width: 101%;
 }
 
 #bottom-part h2{
@@ -154,6 +155,10 @@ body{
 
 .contact a{
     color: white;
+}
+
+.contact a:hover{
+    font-size: 36px;
 }
 
 footer{
